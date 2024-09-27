@@ -1,7 +1,6 @@
-var objVar = {
-    nombre:  "pepo",
-    edad:  40
-}
+const buttonNum = document.getElementsByName("data-number");
+const buttonOp = document.getElementsByName("data-op");
+const buttonDel = document.getElementsByName("data-del");
+const buttonEq = document.getElementsByName("data-eq");
 
-console.log("Este objeto es de tipo " + typeof(objVar) + " y contiene estos datos: \n");
-console.log(objVar);
+var result = document.getElementById("result");
